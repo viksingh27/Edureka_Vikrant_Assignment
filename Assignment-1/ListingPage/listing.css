@@ -1,0 +1,1251 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+::-webkit-scrollbar-track {
+    background: #231942;
+   
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #dd0426;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #dd0426;
+  }  
+body{
+    /* background-color: brown; */
+    margin-top: 8%;
+    background-image: url(./images/food.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.logo-container
+{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+   z-index: 1;
+}
+
+.logo{
+    height: 50px;
+    width:50px;
+    margin-left: 10%;
+    margin-top: 1%;
+    background-color: white;
+    border-radius:50px;
+    color: black;
+    cursor:pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 1px 25px #f0efeb;
+    float: left;
+  
+}
+
+.logo > span {
+    font-size:30px;
+    position: relative;
+    left: 10px;
+    cursor: pointer;
+    top: 7px;
+    font-weight: bold;
+}
+
+.authenticate-container{
+    height:80px;
+    width: 20%;
+    /* background-color:red; */
+   float:left;
+   margin-left: 65%;
+
+}
+#signin-btn{
+    height:45px;
+    width:95px;
+    padding:5px;
+    margin-top: 5%;
+    cursor: pointer;
+    background-color:transparent;
+    border: 1px solid white;
+}
+
+#signin-btn:hover{
+    box-shadow:0px 1px 10px inset  #f0efeb;
+}
+
+#signin-btn >span{
+    font-size:18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-weight: 500;
+}
+#login-btn{
+    height:45px;
+    width:95px;
+    padding:5px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color:#f0efeb;
+    border: 1px solid  #0b090a;
+
+}
+
+#login-btn:hover{
+    box-shadow:0px 1px 10px inset #0b090a;
+}
+
+
+#login-btn >span{
+    font-size:18px;
+    color: #0b090a;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#main-container{
+    width: 80%;
+    margin-left: 10%;    
+}
+
+#main-container > h1{
+    
+    font-size: 28px;
+    margin-top: 5%;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    color: #231942;
+
+}
+hr{
+    display: none;
+}
+.filter-container{
+    height: 830px;
+    width: 25%;
+  background-color: #eae4e9;
+    box-shadow: 5px 10px 45px -5px black;
+    margin-top:3%;
+    float: left;
+    border-radius:5px;
+}
+
+#content-container
+{
+    height:auto;
+    width:72%;
+    /* border: 1px solid red; */
+   float: left;
+   margin-left: 3%;
+}
+
+.content{
+    height: 300px;
+    width: 100%;
+    background-color: #eae4e9;
+    box-shadow: 10px 15px 50px black;
+    border-radius:5px;
+   margin-top: 3%;
+}
+.filter-heading{
+    height: auto;
+    width: 80%;
+    margin-top: 4%;
+    color: #121a26;
+    /* background-color:red; */
+    margin-left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.location-container{
+    height: 115px;
+    width: 80%;
+    margin-left: 10%;
+    /* background-color: aquamarine; */
+    margin-top:8%;
+    border-bottom: 1px solid black;
+
+}
+h3 > span{
+    font-size:15px;
+    position: relative;
+    font-weight:bolder;
+    color: #dd0426;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 10px;
+    
+}
+.select-container{
+    height: 30px;
+    width:100%;
+    margin-top: 20px;
+    background-color: #eae4e9;
+    border: 1px solid black;
+}
+
+.option-container{
+   background-color: #eae4e9;
+    font-size:12px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cuisine-container{
+    height: 200px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+    border-bottom: 1px solid black;
+    /* background-color: blueviolet; */
+}
+
+.checkbox-container{
+    /* background-color: blue; */
+    height: 150px;
+    width:100%;
+    margin-top:10%;
+   
+}
+
+.cuisine-checkbox-label > input{
+    position: relative;
+    top: 4px;
+    left: 2px;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.cuisine-checkbox-label{
+   
+    
+    height:20px;
+    width:100%;
+    /* background-color: green; */
+    margin-top:6px;
+    cursor: pointer;
+}
+
+.cuisine-checkbox-label > .label:hover{
+    transition: .3s ease-in;
+    background-color: #231942 ;
+    color: #eae4e9;
+}
+
+
+.label {
+    font-size:15px;
+    height:20px;
+    width: 90%;
+    border-radius:5px;
+    font-weight:500;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: -13px;
+    left: 10%;
+}
+.label > span{
+    position:relative;
+    left: 25px;
+}
+.cost-container{
+    height: 230px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+    border-bottom: 1px solid black;
+    /* background-color: chartreuse; */
+}
+
+.radio-container{
+    /* background-color: blue; */
+    height: 170px;
+    width:100%;
+    margin-top:10%;
+}
+
+.radio-btn-label{
+    /* background-color: green; */
+    margin-top: 3px;
+    cursor: pointer;
+}  
+
+.radio-btn-label > input{
+    position: relative;
+    top: 8px;
+    display: block;
+    cursor: pointer;
+}
+
+.radio-btn-label > .radio-label:hover{
+    transition: .3s ease-in;
+    background-color: #231942 ;
+    color: #eae4e9;
+}
+.radio-label{
+    font-size:15px;
+    height:20px;
+    width: 90%;
+    border-radius:5px;
+    font-weight:500;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: -8px;
+    left: 10%;
+}
+
+.radio-label >span{
+    position:relative;
+    left: 25px;
+}
+
+.sort-container{
+    height: 150px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 8%;
+    /* background-color: greenyellow; */
+}
+
+.high-sort{
+    height: 30px;
+    width: 100%;
+    margin-top: 10%;
+    /* background-color: #231942; */
+
+}
+.high-sort-btn{
+    /* background-color: green; */
+    margin-top: 3px;
+    cursor: pointer;
+}  
+.high-sort-btn > input{
+    position: relative;
+    top: 8px;
+    display: block;
+    cursor: pointer;
+}
+
+.high-sort-label{
+    font-size:15px;
+    height:20px;
+    width: 90%;
+    border-radius:5px;
+    font-weight:500;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: -8px;
+    left: 10%;
+}
+
+.high-sort-label >span{
+    position:relative;
+    left: 25px;
+}
+.low-sort{
+    height: 30px;
+    width: 100%;
+    margin-top: 5%;
+    /* background-color: #231942; */
+
+}
+.low-sort-btn{
+    /* background-color: green; */
+    margin-top: 3px;
+    cursor: pointer;
+}  
+.low-sort-btn > input{
+    position: relative;
+    top: 8px;
+    display: block;
+    cursor: pointer;
+}
+
+.low-sort-label{
+    font-size:15px;
+    height:20px;
+    width: 90%;
+    border-radius:5px;
+    font-weight:500;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    position: relative;
+    top: -8px;
+    left: 10%;
+}
+
+.low-sort-label >span{
+    position:relative;
+    left: 25px;
+}
+
+.high-sort-btn > .high-sort-label:hover{
+    transition: .3s ease-in;
+    background-color: #231942 ;
+    color: #eae4e9;
+}
+
+.low-sort-btn > .low-sort-label:hover{
+    transition: .3s ease-in;
+    background-color: #231942 ;
+    color: #eae4e9;
+}
+
+
+/* ===================================================Container Content=====================================  */
+
+
+.title-container{
+    height: 150px;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    top: 30px;
+    border-bottom: 1px solid gray;
+    /* background-color: #121a26; */
+}
+.title-image{
+
+    height:120px;
+    width: 120px;
+    /* background-color:red; */
+    border-radius:20px;
+    border: 1px solid gray;
+    float: left;
+    background-image: url(./images/foodTwo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.title-description{
+    height: 120px;
+    width: 80%;
+    float: left;
+    cursor: pointer;
+    margin-left:3%;
+    /* background-color:khaki; */
+}
+
+.title-description > h2{
+    font-size: 50px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-description > span{
+    font-size:20px;
+    line-height:30px;
+    font-weight: 600;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-description > h5{
+    font-size:12px;
+    line-height:20px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-container-two{
+    height:80px;
+    margin-top: 5%;
+    width:90%;
+    margin-left: 5%;
+    /* background-color: #231942; */
+}
+.cuisine-desc{
+    height:30px;
+    width:45%;
+    /* background-color: #dd0426; */
+    font-size:15px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cuisine-desc>p{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+.cuisine-desc > p > span{
+    position: relative;
+    left: 80px;
+}
+.capacity-desc{
+    height:30px;
+    width:45%;
+    margin-top: 10px;
+    /* background-color: #dd0426; */
+    font-size:15px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.capacity-desc>p{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+.capacity-desc > p > span{
+    position: relative;
+    left: 45px;
+}
+
+
+.title-container-second{
+    height: 150px;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid black;
+    /* background-color: #121a26; */
+}
+.title-image-second{
+
+    height:120px;
+    width: 120px;
+    /* background-color:red; */
+    border-radius:20px;
+    border: 1px solid gray;
+    float: left;
+    background-image: url(./images/foodThree.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.title-description-second{
+    height: 120px;
+    width: 80%;
+    float: left;
+    margin-left:3%;
+    /* background-color:khaki; */
+}
+
+.title-description-second> h2{
+    font-size: 50px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-description-second > span{
+    font-size:20px;
+    line-height:30px;
+    font-weight: 600;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-description-second > h5{
+    font-size:12px;
+    line-height:20px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-container-two-second{
+    height:80px;
+    margin-top: 5%;
+    width:90%;
+    margin-left: 5%;
+    /* background-color: #231942; */
+}
+.cuisine-desc-second{
+    height:30px;
+    width:45%;
+    /* background-color: #dd0426; */
+    font-size:15px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cuisine-desc-second>p{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+.cuisine-desc-second > p > span{
+    position: relative;
+    left: 80px;
+}
+.capacity-desc-second{
+    height:30px;
+    width:45%;
+    margin-top: 10px;
+    /* background-color: #dd0426; */
+    font-size:15px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.capacity-desc-second>p{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+.capacity-desc-second > p > span{
+    position: relative;
+    left: 45px;
+}
+
+
+
+
+.title-container-third{
+    height: 150px;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid black;
+    /* background-color: #121a26; */
+}
+.title-image-third{
+
+    height:120px;
+    width: 120px;
+    /* background-color:red; */
+    border-radius:20px;
+    border: 1px solid gray;
+    float: left;
+    background-image: url(./images/foodFour.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.title-description-third{
+    height: 120px;
+    width: 80%;
+    float: left;
+    margin-left:3%;
+    /* background-color:khaki; */
+}
+
+.title-description-third> h2{
+    font-size: 50px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-description-third > span{
+    font-size:20px;
+    line-height:30px;
+    font-weight: 600;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-description-third > h5{
+    font-size:12px;
+    line-height:20px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-container-two-third{
+    height:80px;
+    margin-top: 5%;
+    width:90%;
+    margin-left: 5%;
+    /* background-color: #231942; */
+}
+.cuisine-desc-third{
+    height:30px;
+    width:45%;
+    /* background-color: #dd0426; */
+    font-size:15px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cuisine-desc-third>p{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+.cuisine-desc-third > p > span{
+    position: relative;
+    left: 80px;
+}
+.capacity-desc-third{
+    height:30px;
+    width:45%;
+    margin-top: 10px;
+    /* background-color: #dd0426; */
+    font-size:15px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.capacity-desc-third>p{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+.capacity-desc-third > p > span{
+    position: relative;
+    left: 45px;
+}
+
+
+
+
+.title-container-fourth{
+    height: 150px;
+    width: 90%;
+    margin-left: 5%;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+    /* border-top: 1px solid black; */
+    border-bottom: 1px solid black;
+    /* background-color: #121a26; */
+}
+.title-image-fourth{
+
+    height:120px;
+    width: 120px;
+    /* background-color:red; */
+    border-radius:20px;
+    border: 1px solid gray;
+    float: left;
+    background-image: url(./images/foodFifth.jpg);
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.title-description-fourth{
+    height: 120px;
+    width: 80%;
+    float: left;
+    margin-left:3%;
+    /* background-color:khaki; */
+}
+
+.title-description-fourth> h2{
+    font-size: 50px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-description-fourth > span{
+    font-size:20px;
+    line-height:30px;
+    font-weight: 600;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-description-fourth > h5{
+    font-size:12px;
+    line-height:20px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title-container-two-fourth{
+    height:80px;
+    margin-top: 5%;
+    width:90%;
+    margin-left: 5%;
+    /* background-color: #231942; */
+}
+.cuisine-desc-fourth{
+    height:30px;
+    width:45%;
+    /* background-color: #dd0426; */
+    font-size:15px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.cuisine-desc-fourth>p{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+.cuisine-desc-fourth > p > span{
+    position: relative;
+    left: 80px;
+}
+.capacity-desc-fourth{
+    height:30px;
+    width:45%;
+    margin-top: 10px;
+    /* background-color: #dd0426; */
+    font-size:15px;
+    color: #231942;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.capacity-desc-fourth>p{
+    position: relative;
+    top: 5px;
+    display: inline-block;
+}
+
+.capacity-desc-fourth > p > span{
+    position: relative;
+    left: 45px;
+}
+
+.pagination-container{
+    height:50px;
+    width: 80%;
+    margin-left: 3%;
+    /* background-color: red; */
+    margin-top: 5%;
+}
+
+.pagination-container >h4{
+    height:25px;
+    width:25px;
+    background-color: #231942;
+    /* display: inline-block; */
+    float: left;
+    margin-top: 2%;
+    position: relative;
+    left: 30%;
+    border-radius: 5px;
+    color: #eae4e9;
+    margin-left:20px;
+    box-shadow: 5px 0px 20px #231942;
+    cursor: pointer;
+}
+
+.pagination-container >h4:hover {
+    background-color: #eae4e9;
+    transition: .5s;
+    color: #231942;
+}
+
+.pagination-container >h4 > span{
+    font-size:15px;
+    position: relative;
+    left: 8px;
+    top: 4px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer{
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background-color: #121a26;
+    /* top:195%; */
+    margin-top: 95%;
+}
+
+.credit{
+    height:20px;
+    width:100%;
+    background-color: #231942;
+    position: relative;
+    top: 180px;
+}
+
+.credit > h4{
+    color: #eae4e9;
+    margin-left: 45%;
+}
+.credit >h4>span{
+    font-size:15px;
+    margin-left:10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.social{
+    height: 150px;
+    width: 30%;
+    margin-left: 60%;
+    background-color: #dd0426;
+}
+.social-connect{
+    height: 150px;
+    width: 100%;
+    background-color: #121a26;
+    border-left: 1px solid white;
+}
+.social-connect>h3{
+    margin-left: 100px;
+}
+
+.social-connect>h3>span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.social-link{
+    height: 80px;
+    width: 80%;
+    margin-top: 25px;
+    margin-left: 35px;
+    /* background-color: aqua; */
+}
+
+.social-link>a{
+    margin-left:50px;
+}
+
+/* =================================================================for laptop css ==================================*/
+
+
+.dropdown{
+    height:40px;
+    width:110px;
+    background-color: #231942;
+    margin-top:34px;
+    display:none;
+    float: left;
+
+}
+
+.drop-btn{
+    height:40px;
+    width:110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:none;
+}
+
+.dropdown-content{
+    height: 200px;
+    width: 100%;
+    background-color: #dd0426;
+    display:none
+}
+
+.dropdown-content > a{
+    text-align: center;
+    display: flex;
+    padding : 5px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+} 
+
+.dropdown-content > a:hover{
+    display:block;
+}
+
+
+.dropdown-cuisine{
+    height: 40px;
+    width: 110px;
+    background-color: #231942;
+    margin-top: -147px;
+    float: left;
+    margin-left: 90px;
+    display:none;
+
+}
+
+.drop-btn-cuisine{
+    height:40px;
+    width:110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:none;
+}
+
+.dropdown-cuisine-content{
+    height: 200px;
+    width: 100%;
+    background-color: #dd0426;
+    display:none
+}
+
+.dropdown-cuisine-content > a{
+    text-align: center;
+    display: flex;
+    line-height: 25px;
+    padding : 5px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+} 
+
+.dropdown-cuisine-content > a:hover{
+    display:block;
+}
+
+
+
+
+
+.dropdown-sort-container{
+    height: 40px;
+    width: 110px;
+    background-color: #231942;
+    margin-top: -412px;
+    margin-right: -65px;
+    float: right;
+    display:none;
+
+}
+
+.drop-btn-sort{
+    height:40px;
+    width:110px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:none;
+}
+
+.dropdown-sort-content{
+    height: 115px;
+    width: 100%;
+    background-color: #dd0426;
+    display:none
+}
+
+.dropdown-sort-content > a{
+    text-align: center;
+    display: flex;
+    padding : 5px;
+    line-height: 25px;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+} 
+
+.dropdown-sort-content > a:hover{
+    display:block;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1100px) { 
+    body{
+        
+     background-image: url(./images/food-resize.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+    /* background-color: blue; */
+    }
+    .logo{
+        margin-top: 1.5%;
+    }
+    .authenticate-container{
+        margin-top:.6%;
+        margin-left: 60%;
+
+    }
+    #main-container{
+        width: 100%;
+        margin-left:0%;
+    }
+    .filter-container{
+        height: 120px;
+        width: 80%;
+        margin-left: 10%;
+       float: left;
+
+    }
+    #main-container > h1{
+        margin-left: 10%;
+        font-size: 28px;
+        margin-top: 12%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight:bold;
+        color: #231942;
+    
+    }
+    .filter-heading{
+        text-align: center;
+        margin-top:0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+    }
+    .location-container{
+        margin-left: 15px;
+        width:12%;
+        margin-top: -18px;
+        border-bottom: none;
+       
+    }
+    .select-container{
+        display: none;
+    }
+    .location-container >h3{
+        display: none;
+    }
+    .dropdown{
+        display: block;
+    }
+    .drop-btn{
+        display: block;
+    }
+    hr{
+        display: block;
+    }
+    .cuisine-container{
+        border-bottom: none;
+    }
+    .dropdown-cuisine{
+        display: block;
+    }
+    .drop-btn-cuisine{
+        display: block;
+    }
+    .checkbox-container{
+        display: none;
+    }
+    .cuisine-container >h3{
+        display: none;
+    }
+    .dropdown-sort-container{
+        display: block;
+    }
+
+    .drop-btn-sort{
+        display: block;
+    }
+
+    .sort-container > h3{
+        display: none;
+    }
+    .high-sort{
+        display: none;
+    }
+    .low-sort{
+        display: none;
+    }
+    #content-container{
+        width: 80%;
+        margin-left: 10%;
+
+    }
+    .content{
+        margin-top: 50px;
+    }
+    .footer{
+       margin-top: 165%;
+    }
+
+    .credit > h4 >span{
+        margin-left: -15%;
+    }
+    .social-link{
+        width:100%;
+    }
+}
+
+
+ @media only screen and (max-width:1400px) and (min-width:1200px){
+    .footer{
+        /* position: absolute; */
+        margin-top:105%;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    
+    #main-container > h1{
+        margin-left: 10%;
+        font-size: 25px;
+        margin-top: 12%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        color: #231942;
+    
+    }
+    .authenticate-container{
+        width: 24%;
+
+    }
+    .drop-btn-cuisine  {
+       font-size:15px;
+    }
+    .drop-btn-sort{
+        font-size:15px;
+    }
+
+    .dropdown{
+        margin-top:30px;
+    }
+
+    .drop-btn{
+     font-size :14px;
+    }
+
+    #content-container{
+     width: 80%;
+     margin-left:10%;
+    }
+
+    .title-description{
+        width: 75%;
+        line-height:65px;
+    }
+
+    .title-description-second{
+        width: 75%;
+        line-height:65px;
+    }
+
+    .title-description-third{
+        width: 75%;
+        line-height:65px;
+    }
+    .title-description-fourth{
+        width: 75%;
+        line-height:65px;
+    }
+
+    .footer{
+        margin-top:170%;
+    }
+}
+ 
+ @media screen and (max-width:1000px) and (min-width:1024px){
+    .footer{
+        margin-top:32%;
+    }
+} 
+
+@media screen and (min-width:400px){
+    .footer{
+        height:200px;
+    }
+}
+ 
+
+
+

@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>Listing Page</title>
+        <link href="images/restaurant.png" rel="icon">
+        <link rel="stylesheet" href="listing.css">
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <div class="logo">
+                    <span>E!</span>
+                </div>
+               <div class="authenticate-container">
+                    <button id="signin-btn"> <span>Sign In</span>  </button>
+                    <button id="login-btn"><span>Log In</span> </button>
+
+               </div>
+            </div>
+        </header>
+        <div id="main-container">
+            <h1>Find Best Options For Search</h1>
+             <div class="filter-container">
+                <div class="filter-heading"><h2>Filters</h2></div>
+                <hr style="width:80%; margin-left: 10%;">
+                <div class="location-container">
+                    <h3> <Span>Select Location</Span></h3>
+                     <select  class="select-container">
+                        <option value="" class="option-container">Mumbai</option>
+                        <option value=""  class="option-container">Navi Mumbai</option>
+                        <option value=""  class="option-container">Thane</option>
+                        <option value=""  class="option-container">Panvel</option>
+                        <option value=""  class="option-container">Kharghar</option>
+                        <option value=""  class="option-container">Vashi</option>
+                    </select> 
+                    <div class="dropdown">
+                        <button class="drop-btn">Select Location &#11167;</button>
+                        <div class="dropdown-content">
+                            <a href="">Mumbai</a>
+                            <a href="">Navi Mumbai</a>
+                            <a href="">Thane</a>
+                            <a href="">Panvel</a>
+                            <a href="">Kharghar</a>
+                            <a href="">Vashi</a>
+
+                        </div>
+                    </div>
+                </div> 
+                <div class="cuisine-container">
+                     <h3><span>Cuisine</span></h3>
+                    <div class="checkbox-container">
+                        <div class="cuisine-checkbox-label">
+                            <input type="checkbox">
+                            <div class="label"><span>North Indian</span> </div> 
+                        </div>
+                        <div class="cuisine-checkbox-label">
+                            <input type="checkbox">
+                            <div class="label"><span>South Indian</span></div> 
+                        </div>
+                        <div class="cuisine-checkbox-label">
+                            <input type="checkbox">
+                            <div class="label"><span>Chinese</span></div> 
+                        </div>
+                        <div class="cuisine-checkbox-label">
+                            <input type="checkbox">
+                            <div class="label"><span>Italian</span></div>  
+                        </div>
+                        <div class="cuisine-checkbox-label">
+                            <input type="checkbox">
+                            <div class="label"><span>Mexican</span></div>  
+                        </div>
+                    </div> 
+                    <div class="dropdown-cuisine">
+                         <button class="drop-btn-cuisine">Select Cuisine &#11167;</button>
+                        <div class="dropdown-cuisine-content">
+                            <a href="">North Indian</a>
+                            <a href="">South Indian</a>
+                            <a href="">Chinese</a>
+                            <a href="">Panvel</a>
+                            <a href="">Italian</a>
+                            <a href="">Mexican</a>
+                        </div>
+                    </div>
+                </div> 
+
+               
+               <!-- <div class="cost-container">
+                    <h3><span>Cost For Two</span></h3>
+                    <div class="radio-container">
+                        <div class="radio-btn-label">
+                            <input type="radio">
+                            <div class="radio-label"><span>Less than &#8377; 500</span></div >
+                        </div>
+                        <div class="radio-btn-label">
+                            <input type="radio">
+                            <div class="radio-label"><span>&#8377; 500 to &#8377; 1000</span></div >
+                        </div>
+                        <div class="radio-btn-label">
+                            <input type="radio">
+                            <div class="radio-label"><span>&#8377; 1000 to &#8377; 1500</span></div >
+                        </div>
+                        <div class="radio-btn-label">
+                            <input type="radio">
+                            <div class="radio-label"><span>&#8377; 1500 to &#8377; 2000</span></div >
+                        </div>
+                        <div class="radio-btn-label">
+                            <input type="radio">
+                            <div class="radio-label"><span>&#8377; 2000+</span></div >
+                        </div>
+                       
+                    </div>
+                   
+                </div> -->
+                 <div class="sort-container">
+                    <h3><span>Sort</span></h3>
+                    <div class="high-sort">
+                        <div class="high-sort-btn">
+                            <input type="radio">
+                            <div class="high-sort-label"><span>Price High To Low</span></div >
+                        </div>
+                    </div>
+                    <div class="low-sort">
+                        <div class="low-sort-btn">
+                            <input type="radio">
+                            <div class="low-sort-label"><span>Price Low To High</span></div >
+                        </div>
+                    </div>
+                    <div class="dropdown-sort-container">
+                        <button class="drop-btn-sort">Select Sort &#11167;</button>
+                       <div class="dropdown-sort-content">
+                           <a href="">Price High To Low</a>
+                           <a href="">Price Low To High</a>
+                           
+                       </div>
+                   </div>
+                </div>
+            </div> 
+            
+            <div id="content-container" style="margin-top:10px;">
+                    <div class="content">
+                        <div class="title-container">
+                            <div class="title-image"></div>
+                            <div class="title-description">
+                                <h2>The Pizza Palace</h2>
+                                <span>North Cafe</span>
+                                
+                                <h5>Shop no. 2 Station Road, Priyadarshani East</h5>
+                            </div>
+                        </div>
+                        <div class="title-container-two">
+                            <div class="cuisine-desc"><p>Cuisines :</p> <p><span>Italian</span></p></div>
+                            <div class="capacity-desc"><p>Cost For Two :</p> <p><span>&#8377;1000</span></p></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="title-container-second">
+                            <div class="title-image-second"></div>
+                            <div class="title-description-second">
+                                <h2>Maxican Hub</h2>
+                                <span>North Cafe</span>
+                                
+                                <h5>Shop no. 2 Station Road, Priyadarshani East</h5>
+                            </div>
+                        </div>
+                        <div class="title-container-two-second">
+                            <div class="cuisine-desc-second"><p>Cuisines :</p> <p><span>Maxican</span></p></div>
+                            <div class="capacity-desc-second"><p>Cost For Two :</p> <p><span>&#8377;1000</span></p></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="title-container-third">
+                            <div class="title-image-third"></div>
+                            <div class="title-description-third">
+                                <h2>Southern Spice</h2>
+                                <span>North Cafe</span>
+                                
+                                <h5>Shop no. 2 Station Road, Priyadarshani East</h5>
+                            </div>
+                        </div>
+                        <div class="title-container-two-third">
+                            <div class="cuisine-desc-third"><p>Cuisines :</p> <p><span>South India</span></p></div>
+                            <div class="capacity-desc-third"><p>Cost For Two :</p> <p><span>&#8377;1000</span></p></div>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="title-container-fourth">
+                            <div class="title-image-fourth"></div>
+                            <div class="title-description-fourth">
+                                <h2>Chinese House</h2>
+                                <span>North Cafe</span>
+                                
+                                <h5>Shop no. 2 Station Road, Priyadarshani East</h5>
+                            </div>
+                        </div>
+                        <div class="title-container-two-fourth">
+                            <div class="cuisine-desc-fourth"><p>Cuisines :</p> <p><span>Chinese</span></p></div>
+                            <div class="capacity-desc-fourth"><p>Cost For Two :</p> <p><span>&#8377;1000</span></p></div>
+                        </div>
+                    </div>
+                    <div class="pagination-container">
+                        <h4><span>&#xab; </span></h4>
+                        <h4><span>1</span></h4>
+                        <h4><span>2</span></h4>
+                        <h4><span>3</span></h4>
+                        <h4><span>4</span></h4>
+                        <h4><span>5</span></h4>
+                        <h4><span>&#187;</span></h4>
+                    </div> 
+            </div>
+        </div>
+        <footer class="footer">
+           <div class="credit">
+               
+               <h4><span>Edu &copy; 2021  & Made with &#10084; & &#x2615;</span></h4>
+           </div>
+            <div class="social">
+                <div class="social-connect">
+                   <h3><span>Connect With Us</span></h3>
+                  <div class="social-link">
+                       <a href=""><img src="./images/insta.png" alt="Instagram" style="width:30px; height:30px; margin-top:20px;" size="30px" title="Instagram"></a>
+                       <a href=""><img src="./images/facebook.png" alt="Facebook" style="width:30px; height:30px; margin-top:20px;" size="30px" title="facebook"></a>
+                       <a href=""><img src="./images/twitter.png" alt="Twitter" style="width:30px; height:30px; margin-top:20px;" size="30px" title="Twitter"></a>
+                     
+                   </div>
+                  
+               </div>
+           </div> 
+       </footer> 
+    </body>
+</html>
