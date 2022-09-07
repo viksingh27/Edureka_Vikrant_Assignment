@@ -1,0 +1,250 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link href="images/restaurant.png" rel="icon">
+        <link rel="stylesheet" href="Homepage.css">
+        
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<!-- 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    </head>
+    <body style="background-color: #cbd3d6;">
+    <!-------------------------------------------CustomNavbar------------------------------------------>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color:black;" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="navbar-brand"><span>E!</span></a>
+        <button class="navbar-toggler text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseexample" aria-controls="navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapseexample">
+          <ul class="navbar-nav ms-auto ms-lg-5 ms-md-5 mt-xs-5 mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a href="" class="nav-link text-danger ms-lg-5 ms-md-2" aria-current="page" id="li">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-danger ms-lg-5 ms-md-2" aria-current="page" id="li">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-danger ms-lg-5 ms-md-2" aria-current="page" id="li">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link text-danger ms-lg-5 ms-md-2" aria-current="page" id="li">Cart</a>
+            </li>
+          </ul>
+                <div class="ms-lg-auto ms-md-auto ms-sm-auto mb-lg-2 mb-md-2 ms-xs-auto text-center" id="auth">
+                  <button id="signin-btn"> <span>Sign In</span>  </button>
+                  <button id="login-btn"><span>Log In</span> </button>
+                </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-----------------------------------------Background----------------------------------------------------------------------------->
+
+    <div id="background">
+      <div class="img-banner">
+        <img src="/images/banner-2.jpg" class="img-fluid" alt="">
+        <div class="container w-50" id="img-text">
+          <p class="fs-2 h4 fw-bolder text-light text-end font-monospace" id="text">It is even better than an expensive cookery book</p>
+          <p class="fs-6 h5 mt-4 text-end font-normal text-muted" id="text-two">"learn how to mute your favorite restaurant's dishes"</p>
+        </div>
+      </div>
+      <div class="container text-end container-xs" id="dropdown-selections">
+        <!-- Large button groups (default and split) -->
+          <div class="btn-group mt-5 w-50">
+            <button class="btn btn-light bg-transparent text-light rounded-pill btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" id="dropdown-btn">
+              Select City
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              ...
+            </ul>
+          </div>
+          <div class="btn-group mt-5 w-25">
+            <button class="btn btn-light bg-transparent text-light rounded-pill btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false" id="dropdown-btn">
+              Select Cuisine
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              ...
+            </ul>
+          </div>
+      </div>
+    </div>
+
+
+    <!-----------------------------------------OptionMenu------------------------------------------------------------------------>
+
+    <div class="container">
+        <div class="mt-5 px-4 py-4 border rounded-3 border-danger bg-dark" id="heading-text">
+          <p class="fs-4 h3 fw-normal text-center mt-1" id="text-three">Quick Serches</p>
+        </div>
+    </div>
+    
+
+    <!-------------------------------------RestaurantOptioncontainer--------------------------------------------------------------->
+
+     <div class="container mt-5">
+        <div class="row">
+          <div class="col-lg-4 mt-5 col-md-6 col-xs-6">
+            <div id="search-box-one">
+              <div class="card border border-dark mb-0 ms-auto me-auto mx-lg-auto mx-xs-auto" style="width: 18rem;" id="ho">
+                <p class="card-header fs-5 bg-dark text-light border-dark">Break Fast</p>
+                <img src="/images/search-img-two.jpg" style="height:150px;width:100%" class="img-fluid card-image-top" alt="">
+                <div class="card-body text-center" id="ho-ho">
+                  <h5 class="card-title text-start fs-1 text-dark fw-bold">Break Fast</h5>
+                  <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="listing.html" class="btn bg-dark btn-danger text-light">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5 col-md-6 col-xs-6">
+            <div id="search-box-two">
+              <div class="card border border-dark mb-0 ms-auto me-auto mx-lg-auto mx-xs-auto" style="width: 18rem;" id="ho">
+                <p class="card-header fs-5 bg-dark text-light border-dark">Lunch</p>
+                <img src="/images/search-img-one.jpg" style="height:150px;width:100%" class="img-fluid card-image-top" alt="">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-start fs-1 text-dark fw-bold">Lunch</h5>
+                  <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn bg-dark btn-danger text-light">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5 col-md-6 col-xs-6">
+            <div id="search-box-three">
+              <div class="card border border-dark mb-0 ms-auto me-auto mx-lg-auto" style="width: 18rem;" id="ho">
+                <p class="card-header fs-5 bg-dark text-light border-dark">Dinner</p>
+                <img src="/images/search-img-three.jpg" style="height:150px;width:100%" class="img-fluid card-image-top" alt="">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-start fs-1 text-dark fw-bold">Dinner</h5>
+                  <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn bg-dark btn-danger text-light">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5 col-md-6 col-xs-6">
+            <div id="search-box-four">
+              <div class="card border border-dark mb-0 ms-auto me-auto mx-lg-auto" style="width: 18rem;" id="ho">
+                <p class="card-header fs-5 bg-dark text-light border-dark">Brunch</p>
+                <img src="/images/search-img-four.jpg" style="height:150px;width:100%" class="img-fluid card-image-top" alt="">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-start fs-1 text-dark fw-bold">Brunch</h5>
+                  <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn bg-dark btn-danger text-light">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5 col-md-6 col-xs-6">
+            <div id="search-box-five">
+              <div class="card border border-dark mb-0 ms-auto me-auto mx-lg-auto" style="width: 18rem;" id="ho"> 
+                <p class="card-header fs-5 bg-dark text-light border-dark">Night Life</p>
+                <img src="/images/search-img-five.jpg" style="height:150px;width:100%" class="img-fluid card-image-top" alt="">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-start fs-1 text-dark fw-bold">Night Life</h5>
+                  <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="listing.html" class="btn bg-dark btn-danger text-light">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-5 col-md-6 col-xs-6">
+            <div id="search-box-six">
+              <div class="card border border-dark mb-0 ms-auto me-auto mx-lg-auto" style="width: 18rem;" id="ho">
+                <p class="card-header fs-5 bg-dark text-light border-dark">Dinner</p>
+                <img src="/images/search-img-three.jpg" style="height:150px;width:100%" class="img-fluid card-image-top" alt="">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-start fs-1 text-dark fw-bold">Dinner</h5>
+                  <p class="card-text text-start">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn bg-dark btn-danger text-light">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>    
+
+    <!----------------------------------------------More Options---------------------------------------------------------------------->
+
+       <div class="container mt-5 px-4 py-4 border rounded-3 border-danger" id="more-option">
+        <p class="fs-4 h3 fw-normal text-center" id="text-three">Direct From Outlet</p>
+      </div> 
+      <div id="more-option-container" class="container mt-5 border-top border-bottom border-secondary">
+        <div class="row mt-5 mb-5">
+          <div class="col-lg-3 w-25 py-2 px-2"  id="more-option-one">
+            <div id="more-option-starbucks">
+              <img src="/images/starbucks.png" class="mx-lg-auto mx-sm-auto mx-md-auto d-block" id="starbucks-img" style="height:100px;width:100px;" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 w-25 py-2 px-2" id="more-option-one">
+            <div id="more-option-dominos">
+              <img src="/images/dominos.png" class="mx-lg-auto mx-sm-auto mx-md-auto d-block" style="height:100px;width:100px;" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 w-25 py-2 px-2" id="more-option-one">
+            <div id="more-option-macd">
+              <img src="/images/macd.png" class="mx-lg-auto mx-sm-auto mx-md-auto d-block" style="height:100px;width:100px;"alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 w-25 py-2 px-2" id="more-option-one">
+            <div id="more-option-burger" id="more-option-one">
+              <img src="/images/burger.png" class="mx-lg-auto mx-sm-auto mx-md-auto d-block" style="height:100px;width:100px;" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--------------------------------------------Footer----------------------------------------------------------------------->
+
+        <div class="container-fluid mt-5" id="footer-container">
+
+          <div class="row">
+            <div class="col-lg-8 col-xs-8 mt-5 border-end border-light border-3">
+              <div id="footer-box-one">
+
+              </div>
+            </div>
+            <div class="col-lg-4 col-xs-4 mt-5">
+              <div id="footer-box-two">
+                <p class="text-light fs-3 fw-bolder text-center mt-4">Connect With Us</p>
+                <div class="container">
+                  <div class="container">
+                    <div class="row ms-5 mt-5">
+                      <div class="col w-25">
+                        <div id="social-facebook">
+                          <img src="/images/facebook.png" style="height:30px;width:30px" alt="">
+                        </div>
+                      </div>
+                      <div class="col w-25">
+                        <div id="social-insta">
+                          <img src="/images/insta.png" style="height:30px;width:30px" alt="">
+                        </div>
+                      </div>
+                      <div class="col w-25">
+                        <div id="social-twitter">
+                          <img src="/images/twitter.png" style="height:30px;width:30px" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-----------------------------------------------------Practice----------------------------------------------------------->
+    </body>
+</html>
